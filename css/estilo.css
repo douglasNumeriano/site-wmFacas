@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:500i&display=swap');
+
+
+#topo{
+    position: relative;
+    height: 3rem;
+    background-color: rgb(255, 255, 255);
+}
+
+#logo{
+    height: 10rem;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+#phone{
+    position: absolute;
+    margin: 1rem;
+    right: 12rem;
+}
+
+#whats{
+    position: absolute;
+    margin: 0.7rem;
+    right: 2rem;
+}
+
+#logo{
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px;
+    display: block;
+  }
+
+.nav-link{
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+#nav a:hover{
+    transition: 0.8s;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+   }
+
+#fundo{
+    position: relative;
+    height: 25rem;
+    max-width: 100%;
+   }
+
+#titulo{
+    position: relative;
+    top: -15rem;
+    color:rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    left: 5rem;
+    font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+    #titulo {
+      font-size: calc(1rem + 3.3vw);
+    }
+  }
+
+@media (max-width: 1200px) {
+    #subTitulo {
+      font-size: calc(0.7rem + 3.3vw);
+    }
+  }
+#sobre{
+    position: 
+    height: 30rem;
+    width: 100%;
+}
+
+#sobre h2{
+    color: rgb(226, 86, 4);
+    font-size: 3.2rem;
+    
+  }
+
+  @media (max-width: 1200px) {
+    #sobre h2 {
+      font-size: calc(0.8rem + 3.3vw);
+    }
+  }
+  
+  #sobre p{
+      font-size: 1.5rem;
+     color: aliceblue;
+  }
+
+  @media (max-width: 1200px) {
+    #sobre p{
+      font-size: calc(0.6rem + 2vw);
+    }
+  }
+
+  #sobre img{
+      position: relative;
+      border-radius: 0.5rem;
+      top: -1rem;
+  }
+
+  #produtos h2{
+    margin: 3rem;
+  }
+  #produtos h2 b{
+    color: rgb(226, 86, 4);
+    font-size: 3.2rem;
+    margin: 3rem;
+  }
+
+  @media (max-width: 1200px) {
+    #produtos h2 {
+      font-size: calc(0.8rem + 3.3vw);
+    }
+  }
+
+  #produtos a{
+      color: beige;
+      background-color: rgb(226, 86, 4);
+  }
+
+  #produtos a:hover{
+      color:rgb(226, 86, 4);
+      background-color: aliceblue;
+      transition: 0.7s;
+  }
